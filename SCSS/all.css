@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+li {
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  background-color: #232222;
+}
+
+.h2 {
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  line-height: 0.75;
+}
+
+main {
+  background-image: url(https://hasnaanajmi.com/TM/mirya/wp-content/uploads/2021/05/header.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+main .navbar {
+  padding: 20px 0;
+  opacity: rgba(0, 0, 0, 0);
+}
+main .navbar .logo {
+  padding: 13px 0;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #fff;
+}
+main .navbar .nav-btn a {
+  padding: 10px;
+  color: #fff;
+}
+main .banner {
+  margin-left: 14vw;
+}
+main .banner .banner-content {
+  margin-top: 10rem;
+}
+main .banner p {
+  font-size: 23px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #bfbebe;
+  display: inline-block;
+}
+main .banner h1 {
+  font-size: 87px;
+  font-weight: 900;
+  line-height: 8rem;
+}
+main .banner span {
+  font-size: 23px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #cf9c63;
+  margin-bottom: 20px;
+}
+main .banner .hire {
+  margin-top: 2rem;
+  padding: 10px 30px;
+  background-color: #cf9c63;
+  color: #fff;
+  display: inline-block;
+}
+
+.about {
+  background-color: #232222;
+  padding: 70px 0 120px 0;
+}
+.about .col-5 {
+  overflow: hidden;
+}
+.about .col-5 img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.about .col-7 span {
+  color: #cf9c63;
+  font-size: 20px;
+}
+.about .col-7 p {
+  color: #bfbebe;
+}
+.about .col-7 .intro-detail {
+  border: 1px #bfbebe solid;
+  padding: 33px 20px;
+}
+
+.skills {
+  background-color: #232222;
+  background-image: url(https://hasnaanajmi.com/TM/mirya/wp-content/uploads/2021/05/skills.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0 120px 0;
+}
+.skills .h2 {
+  color: #000 !important;
+}/*# sourceMappingURL=all.css.map */
